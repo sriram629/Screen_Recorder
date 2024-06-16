@@ -1,0 +1,22 @@
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Screen Recording</title>
+       <link rel="stylesheet" href="screen.css">
+</head>
+
+<body>
+       <section> 
+       <h2 style="display: block; color:white;">Screen Recorder</h2>
+       <video class="output" autoplay controls width="500px" 
+               height="500px" style="display: none;"></video>
+  
+       <div><button class="start-btn">Start Recording</button>
+       <button class="stop-btn">Stop Recording</button></div><br>
+       <div><a href="#" download="output.mp4" 
+           class="download-anc">Download</a></div>
+       <div><video class="recording" autoplay muted width="500px" height="500px"></video></div>
+       </section>
+	<script src="screen.js"></script>
+</body>
